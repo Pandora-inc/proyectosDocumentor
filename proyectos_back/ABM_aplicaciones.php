@@ -26,7 +26,7 @@
  */
 ob_start();
 
-require_once ("../ClassABM/class_abm_2.php");
+require_once ("../../ClassABM/class_abm_2.php");
 
 try {
 
