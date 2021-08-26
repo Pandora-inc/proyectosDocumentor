@@ -37,9 +37,9 @@ try {
     Sitios::setDbCharset("utf8");
     Sitios::setDbTipo("mysql");
 
-    Sitios::setDieOnError(false);
-    Sitios::setDebug(false);
-    Sitios::setMostrarErrores(false);
+    Sitios::setDieOnError(true);
+    Sitios::setDebug(true);
+    Sitios::setMostrarErrores(true);
 
     $abm = new class_abm();
 
