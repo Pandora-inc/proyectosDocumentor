@@ -26,7 +26,7 @@
  */
 ob_start();
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/ClassABM/class_abm_2.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/ClassABM/class_abm.php';
 
 try {
 
